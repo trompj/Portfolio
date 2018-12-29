@@ -1,0 +1,194 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 0px) {
+    .title {
+        order: 0;
+        width: 100%;
+        font-size: 4vw;
+    } 
+    .name {
+        order: 0;
+        width: 100%;
+        font-size: 8vw;
+        
+    }
+    .logo {
+        order: 0;
+        width: 30%;
+    }
+    .code {
+        order: 1;
+    }
+    .featured_work {
+        order: 2;
+        font-size: 5vw;
+    }
+    .featured_work .row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .featured_work .column {
+        width: 50%;
+    }
+    
+    @media screen and (min-width: 400px) {
+    .title {
+        order: 0;
+        width: 100%;
+        font-size: 3vw;
+    } 
+    .name {
+        order: 0;
+        width: 100%;
+        font-size: 7vw;
+        
+    }
+    .logo {
+        order: 0;
+        width: 25%;
+    }
+    .skills_paragraph {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 2.5vw;
+    }
+
+    .skills_text {
+        font-size: 3.5vw;
+    }
+        
+    @media screen and (min-width: 570px) {
+    .title {
+        order: 0;
+        width: 100%;
+        font-size: 2vw;
+    } 
+    .name {
+        order: 0;
+        width: 100%;
+        font-size: 5vw;
+        
+    }
+    .logo {
+        order: 0;
+        width: 17%;
+    }
+    .skills_paragraph {
+        order: 1;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 2vw;
+        width: 60%;
+    }
+    .skills_text {
+        font-size: 2.5vw;
+    }
+    .featured_work {
+        order: 1;
+        width: 37%;
+        font-size: 3vw;
+        margin-left: 13px;
+    }
+    .featured_work .column {
+        width: 100%;    
+    }
+    .featured_work .work_img_1 {
+        width: 70%;
+        margin-left: 15px;
+    }
+    .featured_work .work_img_2 {
+        width: 70%;
+        margin-left: 15px;
+    }
+    .featured_work .work_img_3 {
+        width: 70%;
+        margin-left: 15px;
+    }
+    .featured_work .image_caption {
+        font-size: 2.5vw;
+        margin-left: 25px;
+    }
+
+    @media screen and (min-width: 800px) {
+    .title {
+        order: 0;
+        width: 100%;
+        font-size: 1.5vw;
+    } 
+    .name {
+        order: 0;
+        width: 100%;
+        font-size: 3.5vw;
+        
+    }
+    .logo {
+        order: 0;
+        width: 12%;
+    }
+    .skills_paragraph {
+        margin-top: 20px;
+        }
+    .featured_work {
+        font-size: 2vw;
+        margin-left: 13px;
+    }
+    .skills_text {
+        font-size: 2vw;
+    }
+    .skills_paragraph {
+        width: 75%;
+    }
+    .featured_work {
+        order: 1;
+        width: 20%;
+        font-size: 3vw;
+        margin-left: 13px;
+    }
+    .featured_work .work_img_1 {
+        width: 88%;
+        display: block;
+        margin-left: 15px;
+    }
+    .featured_work .work_img_2 {
+        width: 88%;
+        display: block;
+        margin-left: 15px;
+    }
+    .featured_work .work_img_3 {
+        width: 88%;
+        display: block;
+        margin-left: 15px;
+    }
+    .featured_work .image_caption {
+        font-size: 1.5vw; 
+        margin-left: 35px;
+    }
+    .featured_work {
+        font-size: 2vw;
+        margin-left: 13px;
+    }
+        
+    @media screen and (min-width: 900px) {
+    .title {
+        width: 100%;
+        font-size: 1.5vw;
+    } 
+    .name {
+        order: 0;
+        font-size: 3.5vw;
+        
+    }
+    .logo {
+        width: 12%;
+    }
+    .skills_paragraph {
+        margin-top: 20px;
+        }
+
+    .skills_text {
+        font-size: 1.5vw;
+    }
